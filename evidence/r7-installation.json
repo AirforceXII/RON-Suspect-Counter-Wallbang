@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-29T09:14:07.5076235+08:00",
+  "version": "r7",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "ad55ee06d14ae3829327c2d7421275bcf53e990c456cfe4819ac6039f921e976",
+  "copy_and_readback": "PASS",
+  "changes": "No repeated AddActivity; await actual combat activation; no EnterStrafeState; first-call BEGIN/END traces",
+  "game_startup": "AWAITING_USER_TEST",
+  "actual_retaliation": "NOT_YET_VERIFIED",
+  "vanilla_client_replication": "NOT_TESTED"
+}

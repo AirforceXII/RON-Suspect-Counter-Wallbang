@@ -1,0 +1,12 @@
+{
+  "version": "r12",
+  "reported_on": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "source": "Direct player feedback in the development conversation",
+  "player_statement_zh": "客机测试是正常的",
+  "player_statement_en": "Client testing works normally.",
+  "context": "Host-only installation with clients not required to install the mod",
+  "result": "USER_REPORTED_PASS",
+  "separate_client_log_collected": false,
+  "scope": "Reported multiplayer client behavior; not a complete compatibility matrix"
+}

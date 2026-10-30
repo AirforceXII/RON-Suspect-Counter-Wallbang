@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-29T09:54:23.4514223+08:00",
+  "version": "r10",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "0adb77ce2cdbc7fc3bb2630fd794661d5debe2171d2952f0348596a40494421d",
+  "copy_and_readback": "PASS",
+  "movement_enabled": false,
+  "override_combat_target": true,
+  "activity_replacement_removed": true,
+  "changes": "Remove AddActivity(combat,true) and self-parent activation wait; preserve native main activity; reject self-delegation; restore target override",
+  "game_startup": "AWAITING_USER_TEST",
+  "actual_retaliation": "NOT_YET_VERIFIED",
+  "stack_overflow_fixed": "NOT_YET_VERIFIED",
+  "vanilla_client_replication": "NOT_TESTED"
+}

@@ -1,0 +1,166 @@
+{
+  "runtime": "Lua 5.4 via lupa 2.6",
+  "classification": "offline mocked UE4SS/game interface tests",
+  "main_lua_sha256": "9a76d5b73b9e58489582c627ab4037cf18b05a3b3504114303a13b6e894972d6",
+  "checks": [
+    {
+      "name": "current-build signatures and hooks",
+      "pass": true
+    },
+    {
+      "name": "disabled movement fixture retains aim and fire without move cleanup",
+      "pass": true
+    },
+    {
+      "name": "opt-in movement retains hit including armour zero-damage behavior",
+      "pass": true
+    },
+    {
+      "name": "both native near-pass paths trigger without requiring nonzero suppression strength",
+      "pass": true
+    },
+    {
+      "name": "client authority and non-suspect exclusions",
+      "pass": true
+    },
+    {
+      "name": "no shooter guessing, self or friendly retaliation",
+      "pass": true
+    },
+    {
+      "name": "non-bullet or non-point damage does not trigger",
+      "pass": true
+    },
+    {
+      "name": "repeated events coalesce and refresh reaction expiry",
+      "pass": true
+    },
+    {
+      "name": "opt-in stuck side-step requests original navigation pursuit",
+      "pass": true
+    },
+    {
+      "name": "dead and arrested suspects stop reacting",
+      "pass": true
+    },
+    {
+      "name": "expiry does not abort a newer unrelated movement request",
+      "pass": true
+    },
+    {
+      "name": "map transition drops actor references and delayed reactions",
+      "pass": true
+    },
+    {
+      "name": "wrong UFunction ABI disables all hooks",
+      "pass": true
+    },
+    {
+      "name": "older UE4SS scheduler never accesses objects on async thread",
+      "pass": true
+    },
+    {
+      "name": "3.0.1 UFunction lacks ForEachProperty but reflection validation succeeds",
+      "pass": true
+    },
+    {
+      "name": "changed parameter offset is rejected before installing hooks",
+      "pass": true
+    },
+    {
+      "name": "legacy map hook stays in persistent state and survives repeated callbacks",
+      "pass": true
+    },
+    {
+      "name": "explicit UFunction call works when target component member lookup is not callable",
+      "pass": true
+    },
+    {
+      "name": "wrong native targeting receiver is rejected",
+      "pass": true
+    },
+    {
+      "name": "nearby bullet impact triggers from true shooter with no visibility query",
+      "pass": true
+    },
+    {
+      "name": "far impacts, clients, non-bullet projectiles and unknown shooters do not react",
+      "pass": true
+    },
+    {
+      "name": "projectile owner chain resolves its actual shooter",
+      "pass": true
+    },
+    {
+      "name": "impact bursts are bounded and map init drops queued impacts",
+      "pass": true
+    },
+    {
+      "name": "unavailable UObject helper and combat member lookups cannot block validated native calls",
+      "pass": true
+    },
+    {
+      "name": "raw impact and near-pass diagnostics precede suspect and projectile filters",
+      "pass": true
+    },
+    {
+      "name": "diagnostic projectile events do not manufacture an impact or reaction",
+      "pass": true
+    },
+    {
+      "name": "enum backing descriptor is not exposed as a runtime parameter",
+      "pass": true
+    },
+    {
+      "name": "optional diagnostic signature mismatch does not disable core hit retaliation",
+      "pass": true
+    },
+    {
+      "name": "native main activity is preserved while separate combat component receives requests",
+      "pass": true
+    },
+    {
+      "name": "observed self-delegating hierarchy is rejected before fire execution",
+      "pass": true
+    },
+    {
+      "name": "first native call trace identifies the unreturned or failing operation",
+      "pass": true
+    },
+    {
+      "name": "shipped r12 defaults react and request native movement without activity replacement",
+      "pass": true
+    },
+    {
+      "name": "missed hitscan shot triggers in 3D corridor without damage or suppression",
+      "pass": true
+    },
+    {
+      "name": "magazine fire path works without projectile or hitscan lifecycle events",
+      "pass": true
+    },
+    {
+      "name": "corridor does not trigger far lateral, behind muzzle, beyond length or other floor",
+      "pass": true
+    },
+    {
+      "name": "hit report uses finite actual segment including impact vicinity",
+      "pass": true
+    },
+    {
+      "name": "shot sources reject clients, missing shooter, self, friendly and other world",
+      "pass": true
+    },
+    {
+      "name": "new shot queue copies transient vectors and map init discards them",
+      "pass": true
+    },
+    {
+      "name": "shot bursts remain bounded and zero directions do not create reactions",
+      "pass": true
+    }
+  ],
+  "game_loading": "NOT_TESTED",
+  "actual_shooting_movement": "NOT_TESTED",
+  "unmodified_client_replication": "NOT_TESTED"
+}

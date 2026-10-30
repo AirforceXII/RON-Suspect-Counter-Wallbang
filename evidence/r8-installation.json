@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-29T09:30:04.4930924+08:00",
+  "version": "r8",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "212def2de1011d4589b443945aed6d40493e9540b6033925c069e2ae0d0fcf10",
+  "copy_and_readback": "PASS",
+  "movement_enabled": false,
+  "changes": "Movement disabled; first reaction STEP_END / TICK_END / TICK_RESUMED markers; targeting and firing parameters unchanged",
+  "game_startup": "READY_CONFIRMED",
+  "actual_retaliation": "USER_REPORTED_HANG_ON_HIT",
+  "hang_fixed": "NO",
+  "vanilla_client_replication": "NOT_TESTED",
+  "runtime_evidence": "r8-live/diagnosis.md"
+}

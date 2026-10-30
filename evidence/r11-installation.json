@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-29T10:24:37.8170187+08:00",
+  "version": "r11",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "1e61af0d2d95f057585cd4df99b3c8031ca8e81c3a4f3f988ed119b61c68c707",
+  "copy_and_readback": "PASS",
+  "movement_enabled": false,
+  "override_combat_target": true,
+  "activity_replacement_removed": true,
+  "added_hooks": [
+    "BaseMagazineWeapon.Multicast_PerformHitscan",
+    "BaseMagazineWeapon.Multicast_OnFire",
+    "BaseMagazineWeapon.Server_HitscanHit"
+  ],
+  "sensing_radius_cm": 250,
+  "direction_path_length_cm": 10000,
+  "direction_sensing_clipped_by_walls": false,
+  "game_startup": "READY_R11_CONFIRMED_IN_LIVE_LOG",
+  "new_trigger_gameplay": "CONFIRMED_BY_USER_AND_LIVE_LOG_HIT_ZERO_SHOT_DIRECTION_NEAR",
+  "r10_hit_retaliation": "CONFIRMED_BY_USER",
+  "vanilla_client_replication": "NOT_TESTED",
+  "backup": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\ReactiveSuspects-backups\\ReactiveSuspects-20261029-102437-768",
+  "weapon_hook_registration": "ALL_THREE_READY",
+  "startup_log": "evidence/r11-live/UE4SS.main-menu.log",
+  "near_shot_log": "evidence/r11-live/UE4SS.near-shot-test.log"
+}

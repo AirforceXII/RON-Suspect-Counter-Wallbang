@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-29T09:44:24.9162725+08:00",
+  "version": "r9",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "b311c5113e37e9d790c74452dd2ce6a4984ac2821a9575c89cd0f8640d36c0d0",
+  "copy_and_readback": "PASS",
+  "movement_enabled": false,
+  "override_combat_target": false,
+  "changes": "Single behavior change versus r8: bOverrideTarget true -> false; aiming and firing requests retained",
+  "game_startup": "READY_CONFIRMED",
+  "actual_retaliation": "STACK_OVERFLOW_AFTER_FIRE_REQUEST",
+  "hang_fixed": "NO",
+  "vanilla_client_replication": "NOT_TESTED",
+  "runtime_evidence": "r9-live/diagnosis.md"
+}

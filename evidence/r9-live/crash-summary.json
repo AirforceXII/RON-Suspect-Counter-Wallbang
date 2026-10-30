@@ -1,0 +1,32 @@
+{
+  "error": "Unhandled Exception: EXCEPTION_STACK_OVERFLOW",
+  "exception_thread": 13736,
+  "code": "0xc00000fd",
+  "registers": {
+    "rip": "0x7ff63c0add14",
+    "rbx": "0x15f7e62ab00",
+    "rdi": "0x16037f19d30",
+    "rcx": "0x16037f19d30",
+    "rsp": "0x143be03fe0"
+  },
+  "heap_readback": {
+    "controller.CurrentActivity_candidate": "NOT_IN_DUMP",
+    "controller.CombatActivity": "NOT_IN_DUMP",
+    "combat.vtable": "NOT_IN_DUMP"
+  },
+  "stack_line_count": 99,
+  "repeated_frames": [
+    [
+      "ReadyOrNotSteam-Win64-Shipping  0x00007ff6373c0000 + 4ce0b01",
+      97
+    ],
+    [
+      "ReadyOrNotSteam-Win64-Shipping  0x00007ff6373c0000 + 4cedd14",
+      1
+    ],
+    [
+      "ReadyOrNotSteam-Win64-Shipping  0x00007ff6373c0000 + 4ce0aa2",
+      1
+    ]
+  ]
+}

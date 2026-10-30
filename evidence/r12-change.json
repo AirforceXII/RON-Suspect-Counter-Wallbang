@@ -1,0 +1,8 @@
+{
+  "version": "r12",
+  "baseline": "r11",
+  "only_behavior_change": "EnableMovement false -> true",
+  "source_comparison": "PASS",
+  "main_lua_sha256": "9a76d5b73b9e58489582c627ab4037cf18b05a3b3504114303a13b6e894972d6",
+  "gameplay": "NOT_YET_TESTED"
+}

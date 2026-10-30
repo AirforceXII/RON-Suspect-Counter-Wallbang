@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-29T08:12:48.4692831+08:00",
+  "version": "r5",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "5acb09233cffeaf00aba8b92438c23657c2d7edf1d95e47a90a3e044db1e8506",
+  "copy_and_readback": "PASS",
+  "uobject_array_cache": false,
+  "impact_radius_cm": 250,
+  "tick_ms": 50,
+  "game_startup": "LOADING_CONFIRMED; DISABLED by signature validation for optional OnRespawnProjectile.UnderlyingType",
+  "actual_retaliation": "NOT_ENABLED: validation disabled r5 before event hooks",
+  "vanilla_client_replication": "NOT_TESTED",
+  "loader_isolation": "Only BPModLoaderMod : 1 -> 0, backed up; fresh start pending",
+  "loader_isolation_record": "r5-loader-stall/isolation.json",
+  "startup_log": "r5-live/UE4SS.main-menu.log"
+}

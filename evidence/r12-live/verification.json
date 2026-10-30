@@ -1,0 +1,42 @@
+{
+  "version": "r12",
+  "player_observation": "missed shot triggers retaliation and visible movement",
+  "ready": "[2026-10-29 02:32:23] [Lua] [ReactiveSuspects] READY r12 | host-only | movement=true | override_target=true | hit + shot-direction proximity | radius_cm=250.0 | path_cm=10000.0",
+  "maps_observed": [
+    "RoN_Island",
+    "RoN_Sins",
+    "RoN_Tower"
+  ],
+  "accepted_start_events": 29,
+  "direction_trigger_starts": 29,
+  "expired_events": 25,
+  "move_call_returns": 29,
+  "mod_errors_in_saved_log": [],
+  "last_status": {
+    "active": 0,
+    "hit": 24,
+    "near": 0,
+    "raw_near": 2,
+    "raw_impacts": 0,
+    "respawns": 0,
+    "validations": 0,
+    "impacts": 0,
+    "impact_near": 0,
+    "dropped_impacts": 0,
+    "starts": 29,
+    "fire_requests": 308,
+    "move_requests": 277,
+    "rejected_moves": 168,
+    "raw_hitscans": 512,
+    "raw_fires": 422,
+    "raw_hit_reports": 0,
+    "shot_paths": 934,
+    "shot_near": 1372
+  },
+  "installed_matches_source": true,
+  "main_lua_sha256": "9a76d5b73b9e58489582c627ab4037cf18b05a3b3504114303a13b6e894972d6",
+  "unmodified_client_replication": "USER_REPORTED_PASS_2026_10_30",
+  "limits": "Movement requests remain subject to native navigation; counters are requests not measured displacement.",
+  "original_capture_multiplayer_status": "NOT_TESTED",
+  "multiplayer_followup": "evidence/r12-live/multiplayer-feedback.json"
+}

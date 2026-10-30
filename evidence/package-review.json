@@ -1,0 +1,43 @@
+{
+  "archive": "F:\\Codex\\2026-10-28\\ron-reactive-suspects-ue4ss\\output\\ReactiveSuspects-r12-HostOnly-UE4SS.zip",
+  "bytes": 13802,
+  "sha256": "3f8e0bfe057fd64a17bdf3e3333e1d20a67214ed50901433708120a9bf9dfc70",
+  "entries": [
+    {
+      "path": "Install.ps1",
+      "bytes": 1555,
+      "sha256": "8baa31d4b964805795d492949f21f7860e39dbadb4f0ebe98e317687a30f20a2"
+    },
+    {
+      "path": "Mods/ReactiveSuspects/enabled.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Mods/ReactiveSuspects/Scripts/main.lua",
+      "bytes": 31354,
+      "sha256": "9a76d5b73b9e58489582c627ab4037cf18b05a3b3504114303a13b6e894972d6"
+    },
+    {
+      "path": "README-\u4e2d\u6587.md",
+      "bytes": 2867,
+      "sha256": "8692fb2c79f028a6261b626f287c59eaeafdfce1fb1feeeaae8813ab12feaf2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3006,
+      "sha256": "cc87d97e6d1e7b77126a5271a916e8cde02c3e8a684d3a4703e5ae707f4b3d3d"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 5,
+      "sha256": "3505ae00650104e44d3058bec42f669856ba1c4732b2b9f738ac74996a18a7a3"
+    }
+  ],
+  "archive_roundtrip": "PASS",
+  "lua54_offline_cases": 39,
+  "installer_copy_and_backup": "not executed by this packaging command",
+  "game_installation": "NOT_PERFORMED",
+  "gameplay": "NOT_TESTED",
+  "unmodified_client_multiplayer": "NOT_TESTED"
+}

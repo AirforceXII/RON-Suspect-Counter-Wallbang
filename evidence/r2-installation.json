@@ -1,0 +1,11 @@
+{
+  "version": "r2",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "418ae7f6cfafddde7e5f82477e849e333593ffb58ce703485773b5ce85f47230",
+  "backup": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\ReactiveSuspects-backups\\ReactiveSuspects-20261028-231857-805",
+  "copy_and_readback": "PASS",
+  "game_restart_ready": "READY_LOGGED_THEN_USER_REPORTED_STARTUP_CRASH",
+  "actual_retaliation": "NOT_YET_VERIFIED",
+  "vanilla_client_replication": "NOT_TESTED",
+  "superseded_by": "r3; see r2-startup-crash/diagnosis.md and r3-installation.json"
+}

@@ -1,0 +1,176 @@
+{
+  "exe": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\ReadyOrNotSteam-Win64-Shipping.exe",
+  "exe_sha256": "ff445331e7144a2dc79ec50c2e6fd42f2a2e7b49ae7b03ae1a6076dcfc769262",
+  "classification": "offline current-build UHT metadata, not live hook verification",
+  "functions": [
+    {
+      "name": "Multicast_PerformHitscan",
+      "record": "0x148a119e0",
+      "owner_constructor": "0x144798e90",
+      "flags": "0x24cc0",
+      "params_size": 64,
+      "parameters": [
+        {
+          "name": "HitscanShot",
+          "generation_flags": "0x19",
+          "flags": "0x10000008000082"
+        },
+        {
+          "name": "bLocalOnly",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Seed",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Server_HitscanHit",
+      "record": "0x148a11ce0",
+      "owner_constructor": "0x144798e90",
+      "flags": "0xa20cc0",
+      "params_size": 280,
+      "parameters": [
+        {
+          "name": "HitResult",
+          "generation_flags": "0x19",
+          "flags": "0x10008008000082"
+        },
+        {
+          "name": "Time",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "TraceBegin",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Distance",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Penetration",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "AmmoTypeIndex",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Seed",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_OnFire",
+      "record": "0x148a119a0",
+      "owner_constructor": "0x144798e90",
+      "flags": "0x24cc0",
+      "params_size": 56,
+      "parameters": [
+        {
+          "name": "DirectionNet",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "SpawnLoc",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Seed",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_HandleSupression",
+      "record": "0x148a11960",
+      "owner_constructor": "0x144798e90",
+      "flags": "0x24cc0",
+      "params_size": 48,
+      "parameters": [
+        {
+          "name": "DirectionNet",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "SpawnLoc",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Server_OnFire",
+      "record": "0x148a11d60",
+      "owner_constructor": "0x144798e90",
+      "flags": "0x80a20cc0",
+      "params_size": 56,
+      "parameters": [
+        {
+          "name": "Direction",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "SpawnLoc",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "Seed",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "OnFire",
+      "record": "0x148a11ae0",
+      "owner_constructor": "0x144798e90",
+      "flags": "0x4820400",
+      "params_size": 48,
+      "parameters": [
+        {
+          "name": "Direction",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "SpawnLoc",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "OnFire",
+      "record": "0x148a52650",
+      "owner_constructor": "0x1448ae4b0",
+      "flags": "0x20401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    }
+  ]
+}

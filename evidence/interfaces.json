@@ -1,0 +1,630 @@
+{
+  "exe": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\ReadyOrNotSteam-Win64-Shipping.exe",
+  "exe_sha256": "ff445331e7144a2dc79ec50c2e6fd42f2a2e7b49ae7b03ae1a6076dcfc769262",
+  "classification": "offline current-build UHT metadata, not live hook verification",
+  "functions": [
+    {
+      "name": "Multicast_TakeDamage",
+      "record": "0x148a37210",
+      "owner_constructor": "0x1448348d0",
+      "flags": "0x24cc0",
+      "params_size": 40,
+      "parameters": [
+        {
+          "name": "DamageAmount",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "DamageEvent",
+          "generation_flags": "0x19",
+          "flags": "0x10000008000082"
+        },
+        {
+          "name": "EventInstigator",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "DamageCauser",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_TakeDamage",
+      "record": "0x148a5be20",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x24cc0",
+      "params_size": 32,
+      "parameters": [
+        {
+          "name": "Damage",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bIsPointDamage",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "DamageTypeClass",
+          "generation_flags": "0x11",
+          "flags": "0x14000000000080"
+        },
+        {
+          "name": "InstigatorCharacter",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "DamageCauser",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_InflictSuppression",
+      "record": "0x148a5b960",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x4024cc0",
+      "params_size": 80,
+      "parameters": [
+        {
+          "name": "SuppressionData",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "CameraShake",
+          "generation_flags": "0x11",
+          "flags": "0x14000000000080"
+        },
+        {
+          "name": "bLessLethal",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_InflictSuppression_NoLineOfSight",
+      "record": "0x148a5b9a0",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x4024cc0",
+      "params_size": 80,
+      "parameters": [
+        {
+          "name": "SuppressionData",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "CameraShake",
+          "generation_flags": "0x11",
+          "flags": "0x14000000000080"
+        },
+        {
+          "name": "bLessLethal",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "ScriptedFireAtActor",
+      "record": "0x148a0edf0",
+      "owner_constructor": "0x14478e7e0",
+      "flags": "0x4020401",
+      "params_size": 24,
+      "parameters": [
+        {
+          "name": "InActor",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "InTime",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bOverrideTarget",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "AccuracyPenaltyMultiplier",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bInfiniteAmmo",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "ScriptedLookAtActor",
+      "record": "0x148a0ee70",
+      "owner_constructor": "0x14478e7e0",
+      "flags": "0x4020401",
+      "params_size": 16,
+      "parameters": [
+        {
+          "name": "InActor",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "InTime",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "StopScriptedFire",
+      "record": "0x148a0ef30",
+      "owner_constructor": "0x14478e7e0",
+      "flags": "0x4020401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "StopScriptedLook",
+      "record": "0x148a0ef70",
+      "owner_constructor": "0x14478e7e0",
+      "flags": "0x4020401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AddActivity",
+      "record": "0x148a29200",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x4020401",
+      "params_size": 16,
+      "parameters": [
+        {
+          "name": "Activity",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bOverrideCurrentActivity",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetCombatActivity",
+      "record": "0x148a29580",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x54020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "EnterStrafeState",
+      "record": "0x148a0e8b0",
+      "owner_constructor": "0x14478e7e0",
+      "flags": "0x80400",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "RequestMoveAsync",
+      "record": "0x148a2a700",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x4820401",
+      "params_size": 40,
+      "parameters": [
+        {
+          "name": "Location",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bProjectToNavigation",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "AcceptanceRadius",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AddKnownEnemy",
+      "record": "0x148a7dc50",
+      "owner_constructor": "0x144959900",
+      "flags": "0x4020401",
+      "params_size": 16,
+      "parameters": [
+        {
+          "name": "Enemy",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bForce",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "SetLastTrackedTarget",
+      "record": "0x148a7ea10",
+      "owner_constructor": "0x144959900",
+      "flags": "0x4020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "Target",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AbortCover",
+      "record": "0x148a29140",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x4020401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AbortCover",
+      "record": "0x148a68aa0",
+      "owner_constructor": "0x144901bc0",
+      "flags": "0x20601",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AbortCoverLandmark",
+      "record": "0x148a29180",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x4020401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "DrawWeapon",
+      "record": "0x148a27b50",
+      "owner_constructor": "0x1447fc9b0",
+      "flags": "0x4020401",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetCyberneticsController",
+      "record": "0x148a27cd0",
+      "owner_constructor": "0x1447fc9b0",
+      "flags": "0x54020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetEquippedWeapon",
+      "record": "0x148a59b20",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x54020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "IsSuspect",
+      "record": "0x148a29e40",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x54020401",
+      "params_size": 1,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "IsSuspect",
+      "record": "0x148a5b1a0",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x54020401",
+      "params_size": 1,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "IsArrested",
+      "record": "0x148a5a420",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x54020400",
+      "params_size": 1,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "IsDeadOrUnconscious",
+      "record": "0x148a5a820",
+      "owner_constructor": "0x1448c8d30",
+      "flags": "0x54020401",
+      "params_size": 1,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetGameTimeSinceCreation",
+      "record": "0x148963550",
+      "owner_constructor": "0x142b2cff0",
+      "flags": "0x54020403",
+      "params_size": 4,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "IsMovingForRequest",
+      "record": "0x148a29dc0",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x54020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "RequestID",
+          "generation_flags": "0x3",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "AbortMove",
+      "record": "0x148a291c0",
+      "owner_constructor": "0x144801d30",
+      "flags": "0x4020401",
+      "params_size": 1,
+      "parameters": [
+        {
+          "name": "bKeepVelocity",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "Multicast_SpawnImpactEffects",
+      "record": "0x148a55ba0",
+      "owner_constructor": "0x1448bbf70",
+      "flags": "0x84c40",
+      "params_size": 248,
+      "parameters": [
+        {
+          "name": "Hit",
+          "generation_flags": "0x19",
+          "flags": "0x10008000000080"
+        },
+        {
+          "name": "EffectsClass",
+          "generation_flags": "0x11",
+          "flags": "0x14000000000080"
+        },
+        {
+          "name": "DecalScale",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bExitImpact",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "bArmorImpact",
+          "generation_flags": "0x4c",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetInstigator",
+      "record": "0x1489636d0",
+      "owner_constructor": "0x142b2cff0",
+      "flags": "0x54020403",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetInstigator",
+      "record": "0x148a3ad90",
+      "owner_constructor": "0x144842da0",
+      "flags": "0x54020401",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetOwner",
+      "record": "0x1489638d0",
+      "owner_constructor": "0x142b2cff0",
+      "flags": "0x54020403",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "GetOwner",
+      "record": "0x148973b80",
+      "owner_constructor": "0x142d20900",
+      "flags": "0x54020403",
+      "params_size": 8,
+      "parameters": [
+        {
+          "name": "ReturnValue",
+          "generation_flags": "0x12",
+          "flags": "0x10000000000580"
+        }
+      ],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "OnProjectileValidated",
+      "record": "0x148a1d030",
+      "owner_constructor": "0x1447ce300",
+      "flags": "0x4020400",
+      "params_size": 0,
+      "parameters": [],
+      "auxiliary_properties": []
+    },
+    {
+      "name": "OnRespawnProjectile",
+      "record": "0x148a1d0b0",
+      "owner_constructor": "0x1447ce300",
+      "flags": "0x4820401",
+      "params_size": 64,
+      "parameters": [
+        {
+          "name": "RespawnLocation",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "RespawnRotation",
+          "generation_flags": "0x19",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "newSpeed",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "newDamage",
+          "generation_flags": "0xa",
+          "flags": "0x10000000000080"
+        },
+        {
+          "name": "projectileReaction",
+          "generation_flags": "0x1e",
+          "flags": "0x10000000000080"
+        }
+      ],
+      "auxiliary_properties": [
+        {
+          "name": "UnderlyingType",
+          "generation_flags": "0x0",
+          "flags": "0x0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Offline Lua 5.4 tests only; not a requirement for players / UE4SS.
+lupa==2.6

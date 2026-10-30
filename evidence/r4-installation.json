@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-29T00:11:05.8675814+08:00",
+  "version": "r4",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "3bdeac0429ab2ca793d410d5a81c8c9e6a997575e9153e01eda00a4701838d92",
+  "copy_and_readback": "PASS",
+  "uobject_array_cache": false,
+  "impact_radius_cm": 250,
+  "tick_ms": 50,
+  "game_startup": "PASS_THIS_RUN: READY r4 and GameState init; player entered level",
+  "actual_retaliation": "FAILED: hit=3; GetClass call error; no fire/move requests",
+  "vanilla_client_replication": "NOT_TESTED",
+  "gameplay_log": "r4-live/UE4SS.first-combat.log"
+}

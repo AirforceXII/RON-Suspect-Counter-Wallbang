@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-28T23:50:51.7043860+08:00",
+  "version": "r3",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "dd27b43ef1f793c998ea4daa04886be0ab355587e7ba460c5146fd360f0cd5b2",
+  "copy_and_readback": "PASS",
+  "uobject_array_cache": false,
+  "game_startup": "PASS_THIS_RUN: player confirmed main menu; process alive; READY r3 and three STATUS records",
+  "actual_retaliation": "FAILED_THIS_RUN: hit=10, AddKnownEnemy member call error; fire_requests=0 and move_requests=0",
+  "vanilla_client_replication": "NOT_TESTED",
+  "log": "r3-live/UE4SS.main-menu.log",
+  "log_last_write_local": "2026-10-28T23:52:16+08:00",
+  "gameplay": "HIT_HOOK_CONFIRMED; REACTION_SETUP_FAILED",
+  "gameplay_log": "r3-live/UE4SS.first-combat.log"
+}

@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-29T10:31:35.4600630+08:00",
+  "version": "r12",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "9a76d5b73b9e58489582c627ab4037cf18b05a3b3504114303a13b6e894972d6",
+  "copy_and_readback": "PASS",
+  "backup": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\ReactiveSuspects-backups\\ReactiveSuspects-20261029-103135-401",
+  "movement_enabled": true,
+  "override_combat_target": true,
+  "activity_replacement_removed": true,
+  "sensing_radius_cm": 250,
+  "requested_test_distance_cm": 200,
+  "direction_path_length_cm": 10000,
+  "direction_sensing_clipped_by_walls": false,
+  "game_startup": "READY_R12_MOVEMENT_TRUE_CONFIRMED",
+  "movement_gameplay": "CONFIRMED_BY_USER_AND_NATIVE_MOVE_REQUEST_LOG",
+  "r11_missed_shot_retaliation": "CONFIRMED_BY_USER_AND_LIVE_LOG",
+  "vanilla_client_replication": "NOT_TESTED",
+  "missed_shot_retaliation": "CONFIRMED_BY_USER_AND_SHOT_DIRECTION_START_LOG",
+  "runtime_verification": "evidence/r12-live/verification.json"
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-29T08:47:28.4596971+08:00",
+  "version": "r6",
+  "installed_main": "F:\\SteamLibrary\\steamapps\\common\\Ready Or Not\\ReadyOrNot\\Binaries\\Win64\\Mods\\ReactiveSuspects\\Scripts\\main.lua",
+  "sha256": "f5185d7e8e8ce06acd2d48cd34a7f55e3b13af12f9578943e64134f29950fddc",
+  "copy_and_readback": "PASS",
+  "uobject_array_cache": false,
+  "bpmodloader": "temporarily disabled; backed up in r5-loader-stall/isolation.json",
+  "game_startup": "READY r6 confirmed; 4 behavior hooks and 2 diagnostic hooks registered; GameState init observed",
+  "actual_retaliation": "NOT_YET_VERIFIED",
+  "vanilla_client_replication": "NOT_TESTED",
+  "startup_log": "r6-live/UE4SS.main-menu.log",
+  "gameplay": "AWAITING_USER_TEST"
+}
